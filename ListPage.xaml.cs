@@ -20,4 +20,5 @@ public partial class ListPage : ContentPage
         await App.Database.DeleteShopListAsync(slist);
         await Navigation.PopAsync();
     }
+
 }

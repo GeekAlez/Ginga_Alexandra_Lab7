@@ -8,12 +8,12 @@ public partial class ListEntryPage : ContentPage
 {
     public ListEntryPage()
     {
-       // InitializeComponent();
+       InitializeComponent();
     }
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-       // ListView.ItemsSource = await App.Database.GetShopListsAsync();
+        listView.ItemsSource = await App.Database.GetShopListsAsync();
     }
     async void OnShopListAddedClicked(object sender, EventArgs e)
     {
@@ -33,3 +33,4 @@ public partial class ListEntryPage : ContentPage
         }
     }
 }
+    
