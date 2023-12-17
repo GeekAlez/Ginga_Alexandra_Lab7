@@ -22,12 +22,14 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Button Text="Save Shop" Grid.Column="0"
-                    MaximumWidthRequest="200"
-                        Clicked="OnSaveButtonClicked" />
+            MaximumWidthRequest="200"
+            Clicked="OnSaveButtonClicked" />
 
                 <Button Text="Show on Map" Grid.Column="1"
-                    MaximumWidthRequest="200" Clicked="OnShowMapButtonClicked"></Button
-                
+            MaximumWidthRequest="200" Clicked="OnShowMapButtonClicked"></Button>
+            </Grid>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
